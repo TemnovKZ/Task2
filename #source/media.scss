@@ -126,6 +126,7 @@
 
     .benefits {
         padding: 30px;
+
         &_title {
             font-size: 28px;
             line-height: 36px;
@@ -186,6 +187,19 @@
 }
 
 
-@media (max-width: 878px) {
+@media (max-width: 378px) {
+    .header__img {
+        width: 80%;
+    }
+    .head__title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .features__list {
+        gap: 120px;
+    }
+    .features__box {
+        margin-top: -50px;
+    }
 
 }

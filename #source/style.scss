@@ -455,7 +455,11 @@ body {
     color: black;
 }
 
-.obj:invalid {
+.obj:required:valid {
+    border-color: green;
+}
+
+.obj.form__tel:valid {
     border-color: red;
     .form__error {
         display: block;

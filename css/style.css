@@ -539,10 +539,14 @@ body {
   color: black;
 }
 
-.obj:invalid {
+.obj:required:valid {
+  border-color: green;
+}
+
+.obj.form__tel:valid {
   border-color: red;
 }
-.obj:invalid .form__error {
+.obj.form__tel:valid .form__error {
   display: block;
 }
 
@@ -792,5 +796,23 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+  }
+}
+@media (max-width: 378px) {
+  .header__img {
+    width: 80%;
+  }
+
+  .head__title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .features__list {
+    gap: 120px;
+  }
+
+  .features__box {
+    margin-top: -50px;
   }
 }

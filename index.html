@@ -14,7 +14,7 @@
 <body>
     <header class="header">
         <div class="header__container container">
-            <div class="header__logo"><img src="img/icon/logo.svg"></div>
+            <div class="header__logo"><img class="header__img" src="img/icon/logo.svg"></div>
             <ul class="header__list">
                 <li class="header__item"><a class="header__link" href="#overview">OVERVIEW</a></li>
                 <li class="header__item"><a class="header__link" href="#features">FEATURES</a></li>
@@ -134,9 +134,9 @@
             <p class="contact__subtitle">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
         </div>
         <form action="#" method="get" class="form">
-            <input class="form__name obj" type="text" name="name" placeholder="First Name" tabindex="1" value="" maxlength="18"> 
-            <input class="form__surname obj" type="text" name="surname" placeholder="Last Name" tabindex="2" value="" maxlength="18"> 
-            <input class="form__tel obj" type="tel" name="number" placeholder="Phone Number" tabindex="3" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+            <input class="form__name obj" type="text" name="name" placeholder="First Name" tabindex="1" value="" maxlength="18" required="required"> 
+            <input class="form__surname obj" type="text" name="surname" placeholder="Last Name" tabindex="2" value="" maxlength="18" required="required"> 
+            <input class="form__tel obj" type="tel" name="number" placeholder="Phone Number" tabindex="3" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" required="required">
             <span class="form__error">Это поле должно содержать телефон в формате +7 (123) 456-78-90</span>
             <input class="form__quest obj" type="text" name="quest" placeholder="Your Question" tabindex="4">
             <button class="form__button" type="submit">SUBMIT NOW</button>
