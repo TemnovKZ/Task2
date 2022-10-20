@@ -185,6 +185,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  position: relative;
 }
 .head__title {
   color: white;
@@ -544,7 +545,7 @@ body {
 }
 
 .obj.form__tel:valid {
-  border-color: red;
+  border-color: green;
 }
 .obj.form__tel:valid .form__error {
   display: block;
@@ -750,7 +751,7 @@ body {
   }
 
   .features__list {
-    gap: 70px;
+    gap: 110px;
   }
   .features__list {
     margin-bottom: 30px;
